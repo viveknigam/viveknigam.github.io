@@ -43,9 +43,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .col3{color:#666666; background-color:#F3F3F3;}
 .col3 a{color:#02A2C4; background-color:#F3F3F3;}
 .col4{color:#333333; background-color:#FFFFFF;}
-.col4 a{color:#60E1FD; background-color:#FFFFFF;}
+.col4 a{color:#5e8439 ; background-color:#FFFFFF;}#5e8439 
 .col5{color:#FFFFFF; background-color:#000000;}
-.col5 a{color:#60E1FD; background-color:#000000;}
+.col5 a{color:#5e8439 ; background-color:#000000;}
 .col6, .col6 a{color:#FFFFFF; background-color:#333333;}
 
 /* ----------------------------------------------Generalise------------------------------------- */
@@ -115,9 +115,9 @@ div.overview{padding:20px 0 0 0;}
 #comments .commentlist ul{margin:0; padding:0; list-style:none;}
 #comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
 #comments .commentlist li.comment_odd{color:#666666; background-color:#F7F7F7;}
-#comments .commentlist li.comment_odd a{color:#60E1FD; background-color:#F7F7F7;}
+#comments .commentlist li.comment_odd a{color:#5e8439 ; background-color:#F7F7F7;}
 #comments .commentlist li.comment_even{color:#666666; background-color:#E8E8E8;}
-#comments .commentlist li.comment_even a{color:#60E1FD; background-color:#E8E8E8;}
+#comments .commentlist li.comment_even a{color:#5e8439 ; background-color:#E8E8E8;}
 #comments .commentlist .author .name{font-weight:bold;}
 #comments .commentlist .submitdate{font-size:smaller;}
 #comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal; text-transform:none;}
@@ -136,7 +136,7 @@ div.overview{padding:20px 0 0 0;}
 
 #column #featured a{color:#666666; background-color:#F9F9F9;}
 #column #featured ul, #column #featured h2, #column #featured p{margin:0; padding:0; list-style:none;}
-#column #featured a{color:#60E1FD; background-color:#F9F9F9;}
+#column #featured a{color:#5e8439 ; background-color:#F9F9F9;}
 #column #featured li{display:block; width:250px; margin:0; padding:20px 25px; color:#666666; background-color:#F9F9F9;}
 #column #featured li p.imgholder{display:block; width:240px; height:90px; margin:20px 0 15px 0; padding:4px; border:1px solid #CCCCCC;}
 #column #featured li h2{margin:0; padding:0 0 14px 0; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; line-height:normal; border-bottom:1px dashed #666666;}
