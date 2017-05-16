@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Vivek Nigam&#8217;s Homepage | Full Width</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="/layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="/layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/layout/scripts/jquery.slidepanel.setup.js"></script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div class="accordion">
+    <div id="socialise">
+      <ul>
+        <li><a href="http://dblp.uni-trier.de/pers/hd/n/Nigam:Vivek"><img src="/pics/dblp.jpeg" alt="" height=125 width=125/><span>DBLP</span></a></li>
+        <li><a href="#"><img src="/layout/images/skype.gif" alt="" /><span>Skype</span></a></li>
+        <li><a href="https://www.facebook.com/vivek.nigam.1088?fref=browse_search"><img src="/layout/images/facebook.gif" alt="" /><span>Facebook</span></a></li>
+      </ul>
+      <br class="clear" />
+    </div>
+  </div>
+</div>
+<div class="wrapper col2">
+  <div id="header">
+    <p class="toggler"><a id="slideit" href="#socialise">Open Panel</a><a id="closeit" style="display:none;" href="#socialise">Close Panel</a></p>
+    <div id="logo">
+      <h1><a href="/index.html">Vivek Nigam</a></h1>
+    </div>
+    <div id="topnav">
+      <ul>
+         <li class="active"><a href="/research/research.html">Research</a><span>Papers and Drafts</span></li>
+        <li ><a href="/cv/cv.html">Curriculum </a><span>More about me</span></li>
+        <li><a href="/projects/projects.html">Projects </a><span>What I am working on</span></li>
+        <li ><a href="/index.html">Homepage</a><span>Introduction</span></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col4">
+  <div id="container">
+      <p>In the past years, I was fortunate enough to be in contact with many brillant researchers who introduced me to a variety of research topics and influenced (and still have an impact) on my research. I currently have different, but related research interests:</p>
+
+<ul>
+<li>Proof Theory and Logical Frameworks</li>
+<li>Foundations of Computer Security</li>
+<li>Denotational Semantics of Programming Languages</li>
+<li>Formal Methods applied to Networking</li>
+</ul>
+
+
+<p>I detailed them below:</p>
+
+<h2>Proof Theory and Logical Frameworks</h2>
+
+<hr />
+
+<p>Proof theory has offered much to computer science. The Curry-Howard isomorphism establishes a connection between the functional programming paradigm and normalization of proofs (cut-elimination). The Focusing Discipline establishes a proof theoretic explanation to logic programming using the computation-as-proof-search paradigm.</p>
+
+<p>Dale Miller introduced me to this world during my PhD. We worked on understanding concepts and operators for which logic does not establish a canonical form, namely, the polarity assignment of atomic formulas and the linear logic exponentials.</p>
+
+<p>Polarity of Atoms: In a focused systems logic connectives are classified as positive, if their introduction rule is not invertible, and negative otherwise. While one can extend this classification to non-atomic formulas, e.g., formulas are positive if their main connective is positive, it is arbitrary for atomic formulas. In fact, one can chose arbitrarily which polarity atoms are assigned and the focusing discipline will still be complete. Interestingly, however, the choice of polarity does have an important impact on the shape of the focused proofs available. For instance, the proofs of the focused proof system for LJ correspond to forward or backward-chaining proofs when assigning positive or negative polarity to atoms.</p>
+
+<p>We investigated the type of proofs that one obtains when using linear logic as a logical framework and using different polarity assignments. We showed that a number of proof systems, such as LJ and NJ, can be encoded in linear logic by playing with the polarity of atomic formulas [JAR&#8217;10]. We obtained a very strong notion of adequacy, an adequacy on the level of derivations. This results establishes that proof search in the encoded systems corresponds exactly to proof search in the linear logic framework. We also used polarity of atoms to formalize a notion of table as proof in our CSL&#8217;07 paper, but extended considerably in my thesis.</p>
+
+<p>It seems that the polarity of atoms may be used to capture a number of other features proof-theoretically. We are investigating possible applications.</p>
+
+<p>Subexponentials: It is known, since the invention of linear logic, that the linear logic exponentials are not canonical. Danos et al. proposed a refinement of linear logic proof system, SELL, that allowed for many colored exponential-like operators for which we call subexponentials [PPDP&#8217;09]. We proposed a logical framework called SELLF, which is a focused proof system for SELL [PPDP&#8217;09]. We showed that it increases considerably the expressiveness of linear logic when used as a logical framework. In a series a papers [PPDP&#8217;09, LICS&#8217;12, CONCUR&#8217;13, ENTCS&#8217;14, JLC&#8217;14], together with Elaine Pimentel, Giselle Reis and Carlos Olarte, we have investigated the power of SELLF. We have shown that a great number of systems can be encoded in SELLF:</p>
+
+<ul>
+<li>A wide range of proof systems, including MLJ, S4, Negri&#8217;s labelled proof systems for modal logic [JLC&#8217;14];</li>
+<li>Concurrent constraint programming languages with epistemic, spatial and temporal modalities [CONCUR&#8217;13, ENTCS&#8217;14] as well as soft-constraints [ICLP&#8217;14];</li>
+<li>It can be used for specifying a number of Linear Logic Authorization Logics [LICS&#8217;12].</li>
+</ul>
+
+
+<p>Tools for Proof Theory: These theoretical results have led us to start an effort of automating the proofs of many foundational results in the form tools. Two such tools have been implemented:</p>
+
+<ul>
+<li><p>TATU: This tool automates the check of whether a proof system encoded in SELLF admits cut-elimination. We use much of the machinery developed by Pimentel in her thesis for Linear Logic Frameworks, adapting it SELLF. It is also described in our JLC&#8217;14 paper;</p></li>
+<li><p>Quati: This tool automates the proof of permutation lemmas. It reduces this problem to the problem of finding the answer-set solutions of a logic program. Whenever Quati is able to infer a permutation, it outputs in LaTeX, otherwise shows the cases for which it was not able to infer rule permutation. This tool is described in our IJCAR&#8217;14 paper.</p></li>
+</ul>
+
+
+<p>There is still plenty of room for research in these topics. At the long term, we would like to build an extensive theory that can explain how to build systems with a clear proof theory and decide among the possible choices for specifying systems. This theory will be accompanied with sensible tools that will help specify and verify these logics/systems.</p>
+
+<h2>Foundations of Computer Security  </h2>
+
+<hr />
+
+<p>I have been fortunate to do my first post-doc with Andre Scedrov. He introduced me to the exciting field of Computer Security. We have been working together since then together with Max Kanovich and Tajana Ban Kirigin on a number of topics including the foundations of computer security.</p>
+
+<p>Protocol Security:
+In symbolic protocol security verification, one considers a very powerful intruder called the Dolev-Yao intruder. He acts as the network with the capability of intercepting, sending and composing and decomposing messages as long as he knows the right decryption keys (encryption is perfect).</p>
+
+<p>The Dolev-Yao is indeed powerful. He can for example remember as many facts as he needs. This fact seems to be key for the undecidability of verifying whether a protocol is safe, e.g., checking whether the intruder can discover or not some secret, also called the secrecy problem. We proposed a less powerful intruder with bounded memory [FAST&#8217;10,IC&#8217;14]. We showed that the secrecy problem is decidable (PSPACE-complete). We did not make any assumptions on the number of nonces that could be generated, but did make the assumption that all protocols are bounded memory, which means that there is a bound on the number of simultaneous protocol sessions.</p>
+
+<p>Interestingly, many existing protocols are memory bounded and we showed that many known anomalies of such protocols could be also carried out by our bounded memory intruder, provided he has enough memory [FAST&#8217;10,IC&#8217;14]. This lead us to the question of whether bounded memory intruders could approximate the traditional Dolev-Yao intruder, which has an unbounded memory, when considering only bounded memory protocols [ESORICS&#8217;13, COMLAN&#8217;14].  We showed that this is not the case. The secrecy problem is undecidable when assuming the Dolev-Yao intruder even in the presence of bounded memory protocols.</p>
+
+<p>Collaborative Systems:
+In a collaborative system, agents work together to achieve a goal, but at the same time try to avoid that bad things happen, i.e., that bad states are reached. We have been working on different problems for collaborative systems, for instance, the planning problem: Is there a sequence of actions (plan) that leads from an initial state to a goal state without reaching any critical state?</p>
+
+<p>We investigated systems with different requirements from both a foundations point of view as well as from the implementation point of view, with the help of Carolyn Talcott. We started with systems that required the creation of nonces, such as in administrative systems: whenever a transaction is created a fresh number is assigned to it so to uniquely identify it. We showed that under some conditions, namely that actions are balanced [Rowe&#8217;s PhD Thesis], then the planning problem is PSPACE-complete. If we allow branching actions, that is, actions that may have non-deterministic effects, then the planning problem is EXPTIME-complete [RTA&#8217;12].</p>
+
+<p>We also considered systems that mention discrete time explicitly, such as Clinical Trials. There are many challenges in including time for the verification of the planning problem. We tackled them by elaborating conditions on the type of actions available [RTA&#8217;12] and showed that the complexity results shown for untimed systems remain the same. We also argued that such formalization could be used for monitoring clinical trials [IHI&#8217;12] and build a prototype of a Clinical Trial Assistant using Maude.</p>
+
+<p>There are many directions to this work. For instance, we have not considered more elaborate systems, where spatial modalities are needed. Also, we are also considering systems which require dense times, instead of discrete times, e.g., distance bounding protocols. We are also in contact with the clinical trial industry collaborating to implement a more sophisticated Clinical Trial Assistant.</p>
+
+<h2>Denotational Semantics: </h2>
+
+<hr />
+
+<p>Working with smart people always helps. This is the case with Martin Hofmann and Nick Benton, specialists on denotational semantics for programming languages. The Denotational Semantics literature is a very rich and exciting and I am still taking my baby steps to grasp the theories available and their power and differences.</p>
+
+<p>Our main goal is to justify effect-based program rewrite equations using denotational semantics. The following is an example of such equation:</p>
+
+<pre><code>        Gamma |- e1;e2 = e2;e1
+</code></pre>
+
+<p>provided that e1 and e2 reads and writes in disjoint locations (or regions).</p>
+
+<p>Proof Relevant Logical Relations: Allocation poses many problems when trying to find suitable denotational models for programming languages with such feature. Existing models have been found to collapse under fixpoint constructions. The main problem seems to be spurious existential quantifications. We have provided [TLCA&#8217;13] a proof-relevant logical relations and showed that it can be used to solve these problems. We formalize worlds and their extensions in a categorical setting, using setoids and pullback squares. We are then able to justify the soundness of some equations and provide a denotational model for programming language with fixpoint constructs and name generation.</p>
+
+<p>Abstract Effects: We introduced the notion of abstract effects to justify coarser annotation of effects to programs [POPL&#8217;14]. Consider for example a data structure that stores and manipulates sets, stored as linked lists. Such data structures come with functions to add and remove an element from the set as well as a membership function that checks whether an element belongs to a set. We are able to justify by using abstract effects that a membership function is assigned only read effects although it not only checks whether an element is in the linked list performs optimizations, such as remove duplicates, thus writing in the data structure. We were also able to prove the soundness of a number of effect-based rewrites, such as the program commutation equation shown above.</p>
+
+<p>There is a number of exciting directions from this work. For example, understanding abstract effects in concurrent programs, or investigating ways to automate the proof of some soundness proofs. We have until now not considered high-order stores and finding suitable models for such cases is also topic of future work.</p>
+
+<h2>Formal Methods applied to Networking:   </h2>
+
+<hr />
+
+<p>During my post-doc at UPENN, I started investigating applications of formal methods for the verification of network systems. I was involved in Boon Thau Loo&#8217;s Network Datalog project. This is a fascinating  project on using declarative programming languages for implementing routing protocols. During my stay, we formalized the operational semantics of the core of a Datalog-like language for distributed systems and proved that the its correctness with respect to usual centralized Datalog semantics [PPDP&#8217;11,COMLAN&#8217;12]. The main challenge is that the evaluation in a distributed system is not synchronous. Thus one needs to prove that the evaluation in the distributed setting is correct w.r.t. the centralized Datalog semantics for any interleaved computation of distributed processes. In the literature, one handles this concurrent computation by assuming that message transmission is FIFO, which is of course a strong assumption. We prove that our operational semantics works even when this assumption is lifted.</p>
+
+<p>In a different line of work [TON&#8217;12], I was also involved in the construction of a formal framework for the verification of the convergence of routing policies. It is known that if routing policies of ISPs are conflicting then one cannot guarantee that the routing tables will converge. We proposed a framework that from a given network topology and routing policies, it can check whether the routing tables always converge in an automated fashion. For that we reduced this problem to a problem solvable by an SMT solvers.</p>
+
+<p>Finally, more recently, I have started to work with Prof. Iguatemi Fonseca on DDoS attacks. More specifically, we have investigated the use of formal methods for the analyses of defences against Application-Layer DDoS attacks. The difference to traditional attacks is that Application-Layer DDoS attacks can be used to target a specific application in a server, such as as web-server, thus generating less traffic and being harder to be detected. We have proposed a defence [EISIC&#8217;14], called SeVen, based on the Adaptive Selective Verification (ASV) defence for Network-Layer DDoS attacks. The main difference is that while ASV assumes a simple stateless sync-ack client-server communication, which is enough for mitigating Network-Layer DDoS attacks, SeVen is state-dependent, assuming more complicated communication patterns. We formally analysed SeVen, evaluating its performance to attacks using the HTTP protocol, such as the HTTP-Pragma and HTTP-Post attacks [EISIC&#8217;14]. We have also discovered a novel attack using the VoIP prototol SIP. We also analysed formally SeVen for mitigating these attacks [SUB&#8217;14].</p>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="footer">
+    <div class="box1">
+      <h2>A Little Something About Myself</h2>
+      <p align="center"><img class="imgl" src=/pics/research2.JPG border=0 height=137 width=220></p>
+      <p>I am Brazilian, my parents are Indian, and I am married to a German. (Hard to get more International.) I have a daughter called Elisa.   </p>
+      <p>I enjoy traveling, jogging and eventually having a beer.</p>
+    </div>
+    <div class="box contactdetails">
+      <h2>My Contact Details</h2>
+      <ul>
+        <li>Federal University of Para&iacute;ba</li>
+        <li>Cidade Universit&aacute;ria, Campus V, Mangabeira</li>
+        <li>Jo&atilde;o Pessoa - PB</li>
+        <li>58051-900</li>
+        <li>Brazil</li>
+        <li>Email: <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#118;&#x69;&#x76;&#101;&#x6b;&#46;&#x6e;&#x69;&#103;&#97;&#109;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x76;&#x69;&#x76;&#101;&#107;&#46;&#x6e;&#x69;&#x67;&#97;&#x6d;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;</a></li>
+        <!-- <li class="last">LinkedIn: <a href="#">Company Profile</a></li> &#8211;>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+</body>
+</html>
