@@ -38,11 +38,18 @@ Tools for Proof Theory: These theoretical results have led us to start an effort
 
 There is still plenty of room for research in these topics. At the long term, we would like to build an extensive theory that can explain how to build systems with a clear proof theory and decide among the possible choices for specifying systems. This theory will be accompanied with sensible tools that will help specify and verify these logics/systems. 
 
-Foundations of Computer Security  
+Computer Security  
 --------------------------------
 ***
 
-I have been fortunate to do my first post-doc with Andre Scedrov. He introduced me to the exciting field of Computer Security. We have been working together since then together with Max Kanovich and Tajana Ban Kirigin on a number of topics including the foundations of computer security. 
+Denial of Service Attacks:
+DDoS attacks are still a main concern for network administrations. We have been investigating the class of Low-Rate (such as Slowloris, Slowread, POST) and Asymmetric DDoS (TLS Renegotiation) attacks. Differently from usual volumetric attacks, such as SYN-ACK attack, Low-Rate and Asymmetric attacks exploit the target's system, such as the protocols used, to deny service. They are hard to detect as the attacker does not need to generate large volumes of traffic. 
+
+We have identified new attacks (such as the Slow TCAM Exhaustion Attack [IFIP-SEC 17] in SDN Networks) and proposed defenses for such attacks (using Selective Strategies [JISIC 14,WRLA'16,SBRC'16,JLAMP 17] and SDN policies). We are actively working in finding new vulnerabilities, such as in the context of Industry 4.0, and developing new defense mechanisms. 
+
+In order to do so, we deploy both formal methods as well as experiments in the network. Our experience shows that the use of formal methods can be very helpful for designing defenses.
+
+This study has led to a number of collaborations with industry including a close collaboration with RNP the Brazilian agency responsible for the Brazilian IP-Network. It has also led to the foundation of the ACTIONS Security start-up.
 
 Protocol Security:
 In symbolic protocol security verification, one considers a very powerful intruder called the Dolev-Yao intruder. He acts as the network with the capability of intercepting, sending and composing and decomposing messages as long as he knows the right decryption keys (encryption is perfect).  
