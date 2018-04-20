@@ -1,0 +1,31 @@
+This is METAFONT, Version 2.718281 (TeX Live 2013) (base=mf 2013.5.30)  16 MAY 2017 07:31
+**LFMTP.pdf LFMTP13.pdf
+(LFMTP.pdf
+>> 3
+! Isolated expression.
+<to be read again> 
+                   0
+l.3 3 0
+        obj <<
+? 
+! Extra tokens will be flushed.
+<to be read again> 
+                   0
+l.3 3 0
+        obj <<
+? zqqq
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+! Interruption.
+l.3 3 0
+        obj <<
+? 
+! Enormous number has been reduced.
+l.4 /Length 4664
+                
+? X
+
