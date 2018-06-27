@@ -1,0 +1,99 @@
+fmod AUTOMATA is 
+
+ var id : Id .
+ var st : State .
+ sorts Action State Id .
+ sort StateAction .
+ op <_,_> : State Action -> StateAction .
+ op tr : Id State -> StateAction .
+ 
+
+ sorts Automaton Automata .
+ subsort Automaton < Automata .
+ op <_,_> : Id State -> Automaton .
+ op getState : Automaton -> State .
+ eq getState(< id, st > ) = st .
+
+ op none : -> Automata .
+ op __ : Automata Automata -> Automata [ctor assoc comm id: none] .
+
+ sorts TrEle Trace .
+ subsort TrEle < Trace .
+ op [_,_] : Action Automata -> TrEle .
+ op nil : -> Trace .
+ op _;_ : Trace Trace -> Trace [ctor assoc id: nil] .
+
+ sort Conf .
+ op [_,_] : Automata Trace -> Conf .
+
+endfm 
+
+mod EXE is
+  inc AUTOMATA .
+
+vars st1 st2 : State .
+var act : Action .
+var auts : Automata .
+vars id : Id .
+vars tr tr1 tr2 : Trace .
+var ats : Automata .
+
+op seen : Automata Trace -> Bool .
+eq seen(ats, tr1 ; [act, ats] ; tr2) = true .
+eq seen(ats,tr) = false [owise] .
+
+crl[trans]:
+ [< id,st1 > auts, tr]
+ =>
+ [< id,st2 > auts, tr ; [act, < id,st2 > auts] ]
+ if < st2, act > := tr(id,st1) 
+ /\ not seen(< id,st2 > auts, tr) .
+
+ --- crl[trans]:
+ --- < id,st1 > 
+ --- =>
+ --- < id,st2 > 
+ --- if < st2, act > := tr(id,st1) [print id " " st1 " " act " " st2] .
+
+endm
+
+mod EXAMPLE is
+  inc EXE .
+
+ vars at1 at2 : Automaton .
+ var ats : Automata .
+ var tr : Trace .
+
+ ops id1 id2 : -> Id .
+ ops a b c d dum : -> Action .
+ ops st0 st1 : -> State .
+
+ eq tr(id1,st0) = < st1, a > .
+ eq tr(id1,st1) = < st0, b > .
+ eq tr(id2,st0) = < st1, c > .
+ eq tr(id2,st1) = < st0, d > .
+
+ op initialState : -> Automata .
+ eq initialState = < id1, st0 > < id2, st0 > .
+
+ op initialConf : -> Conf .
+ eq initialConf = [ initialState , [dum, initialState] ] .
+
+ op badState : Automata -> Bool .
+ ceq badState(at1 at2 ats) = true 
+  if getState(at1) == st1
+  /\ getState(at2) == st1 .
+ eq badState(ats) = false [owise] .
+
+endm
+***(
+search initialState =>* ats such that badState(ats) .
+
+search initialConf =>* [ats, tr]  such that badState(ats) .
+
+srewrite initialStat with trans .
+
+)
+
+
+
