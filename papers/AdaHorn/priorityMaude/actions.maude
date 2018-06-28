@@ -77,7 +77,8 @@ mod EXAMPLE is
  eq initialState = < id1, st0 > < id2, st0 > .
 
  op initialConf : -> Conf .
- eq initialConf = [ initialState , [dum, initialState] ] .
+ eq initialConf = [ initialState , [dum
+ , initialState] ] .
 
  op badState : Automata -> Bool .
  ceq badState(at1 at2 ats) = true 
@@ -92,6 +93,94 @@ search initialState =>* ats such that badState(ats) .
 search initialConf =>* [ats, tr]  such that badState(ats) .
 
 srewrite initialStat with trans .
+
+cBook-Pro-4:priorityMaude vivek$ maude actions.maude
+         \||||||||||||||||||/
+       --- Welcome to Maude ---
+         /||||||||||||||||||\
+     Maude alpha111 built: Dec 20 2016 16:46:01
+      Copyright 1997-2016 SRI International
+       Thu Jun 28 13:36:34 2018
+Maude> search initialConf =>* [ats, tr]  such that badState(ats) .
+search in EXAMPLE : initialConf =>* [ats,tr] such that badState(ats) = true .
+
+Solution 1 (state 3)
+states: 4  rewrites: 45 in 0ms cpu (0ms real) (79787 rewrites/second)
+ats --> < id1,st1 > < id2,st1 >
+tr --> [dum,< id1,st0 > < id2,st0 >] ; [a,< id1,st1 > < id2,st0 >] ; [c,< id1,st1 > < id2,st1 >]
+
+Solution 2 (state 4)
+states: 5  rewrites: 55 in 0ms cpu (1ms real) (73431 rewrites/second)
+ats --> < id1,st1 > < id2,st1 >
+tr --> [dum,< id1,st0 > < id2,st0 >] ; [c,< id1,st0 > < id2,st1 >] ; [a,< id1,st1 > < id2,st1 >]
+
+No more solutions.
+states: 7  rewrites: 107 in 0ms cpu (1ms real) (113227 rewrites/second)
+Maude> search < id1,st1 > < id2,st1 > =>1 ats .
+search in EXAMPLE : < id1,st1 > < id2,st1 > =>1 ats .
+
+No solution.
+states: 1  rewrites: 0 in 0ms cpu (0ms real) (0 rewrites/second)
+Maude> search [< id1,st1 > < id2,st1 >, tr] =>1 ats .
+Warning: <standard input>, line 3: didn't expect token ats:
+[ < id1 , st1 > < id2 , st1 > , tr ] =>1 ats <---*HERE*
+Warning: <standard input>, line 3: no parse for command.
+Maude> search [< id1,st1 > < id2,st1 >, tr] =>1 conf:Conf .
+search in EXAMPLE : [< id1,st1 > < id2,st1 >,tr] =>1 conf:Conf .
+
+Solution 1 (state 1)
+states: 2  rewrites: 5 in 0ms cpu (0ms real) (83333 rewrites/second)
+conf:Conf --> [< id1,st0 > < id2,st1 >,tr ; [b,< id1,st0 > < id2,st1 >]]
+
+Solution 2 (state 2)
+states: 3  rewrites: 10 in 0ms cpu (0ms real) (47169 rewrites/second)
+conf:Conf --> [< id1,st1 > < id2,st0 >,tr ; [d,< id1,st1 > < id2,st0 >]]
+
+No more solutions.
+states: 3  rewrites: 10 in 0ms cpu (0ms real) (33333 rewrites/second)
+Maude> search initialConf =>* [ats, tr]  such that badState(ats) .
+search in EXAMPLE : initialConf =>* [ats,tr] such that badState(ats) = true .
+
+Solution 1 (state 3)
+states: 4  rewrites: 45 in 0ms cpu (0ms real) (194805 rewrites/second)
+ats --> < id1,st1 > < id2,st1 >
+tr --> [dum,< id1,st0 > < id2,st0 >] ; [a,< id1,st1 > < id2,st0 >] ; [c,< id1,st1 > < id2,st1 >]
+
+Solution 2 (state 4)
+states: 5  rewrites: 55 in 0ms cpu (0ms real) (131578 rewrites/second)
+ats --> < id1,st1 > < id2,st1 >
+tr --> [dum,< id1,st0 > < id2,st0 >] ; [c,< id1,st0 > < id2,st1 >] ; [a,< id1,st1 > < id2,st1 >]
+
+No more solutions.
+states: 7  rewrites: 107 in 0ms cpu (0ms real) (162121 rewrites/second)
+Maude> search initialConf =>* [ats, tr]  such that badState(ats) .
+search in EXAMPLE : initialConf =>* [ats,tr] such that badState(ats) = true .
+
+Solution 1 (state 3)
+states: 4  rewrites: 45 in 0ms cpu (0ms real) (205479 rewrites/second)
+ats --> < id1,st1 > < id2,st1 >
+tr --> [dum,< id1,st0 > < id2,st0 >] ; [a,< id1,st1 > < id2,st0 >] ; [c,< id1,st1 > < id2,st1 >]
+
+Solution 2 (state 4)
+states: 5  rewrites: 55 in 0ms cpu (0ms real) (133495 rewrites/second)
+ats --> < id1,st1 > < id2,st1 >
+tr --> [dum,< id1,st0 > < id2,st0 >] ; [c,< id1,st0 > < id2,st1 >] ; [a,< id1,st1 > < id2,st1 >]
+
+No more solutions.
+states: 7  rewrites: 107 in 0ms cpu (0ms real) (143817 rewrites/second)
+Maude> search [< id1,st1 > < id2,st0 >,tr] =>1 Conf:Conf .
+search in EXAMPLE : [< id1,st1 > < id2,st0 >,tr] =>1 Conf:Conf .
+
+Solution 1 (state 1)
+states: 2  rewrites: 5 in 0ms cpu (0ms real) (64935 rewrites/second)
+Conf:Conf --> [< id1,st0 > < id2,st0 >,tr ; [b,< id1,st0 > < id2,st0 >]]
+
+Solution 2 (state 2)
+states: 3  rewrites: 10 in 0ms cpu (0ms real) (52083 rewrites/second)
+Conf:Conf --> [< id1,st1 > < id2,st1 >,tr ; [c,< id1,st1 > < id2,st1 >]]
+
+No more solutions.
+states: 3  rewrites: 10 in 0ms cpu (0ms real) (35087 rewrites/second)
 
 )
 
