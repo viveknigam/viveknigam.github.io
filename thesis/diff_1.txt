@@ -1,0 +1,59 @@
+line 2768: 
+  -with the proviso that $\Sigma \cup \Sigma_l$ is a
+  +with the proviso that $\Sigma \cup \Sigma_l$ is a consistent
+    subexponential signature for the $\forallLoc$ rule, and the proviso that
+
+line 3418            
+   -built from the follows ``micro'' rules.                                          
+   +built from the following ``micro'' rules.
+   
+line 3427
+  -that does not affect the minimum.  These two steps are describe by               
+  +that does not affect the minimum.  These two steps are described by              
+
+line 3428
+  -clauses does not involve any backtrack from the point of synthetic               
+  +clauses does not involve any backtracking from the point of synthetic
+  
+line 3471
+  -data, \emph{i.e.}, atoms in $\Kscr[l]$ will be assumed to have                   
+  +data, \emph{i.e.}, atoms in $\Kscr[l]$ will be assigned negative polarity.                                                               
+
+Figure 7.2 (in the body of the definition for Bag's while instruction):                      
+    [(t_1 \blacktriangledown t_2) \tensor                                           
+    \delay{(\lambda K.\prog)~(\while~(t_1\blacktriangledown
+  - t_2)~\kprog~\prog)}] \\                                                         
+  + t_2)~(\lambda K.\prog)~\prog)}] \\                                              
+
+First paragraph of Section 7.6
+  -In many situations, it is possible to compute in {\em constant time} if          
+   a synthetic connective can be used to help prove a given sequent.  In            
+   particular, it is easy to show that it takes constant time to build a            
+   focusing phase with the body of the \load, \while, and \Ifb\ clauses,            
+  +The strong adequacy obtained for the encoding of \Name\ only ensures
+   that any logic interpreter that searches for focused proofs by
+   decomposing synthetic connectives will construct objects that
+   correspond to computation runs of \Name\ programs. However, in order to
+   analyze the complexity of algorithms, we must enter into
+   implementation details. We now briefly propose an implementation that can, 
+   in many situations, compute in {\em constant time}
+ 
+line 3634
+  -since arithmetic operations and comparisons are assumed to be evaluated          
+  -in constant time.   Checking that the body of an alternative can be              
+  +since arithmetic operations and comparisons can be assumed to be                 
+  +evaluated in constant time.   Checking that the body of an alternative           
+  +can be                          
+  decomposed requires a search over all alternatives, which is bound by            
+                                                                                                                                                
+In Figure 5.2: missing \Gamma in the right branch of the \with introduction 
+rule
+
+ \infer[{\with}]
+    {\llfDash \mathcal{K}:\Gamma  \Uparrow L,A\with B}
+    {\llfDash\mathcal{K}:\Gamma   \Uparrow L,A\quad \llfDash \mathcal{K}
+  -: \Uparrow L,B}
+  +: \Gamma \Uparrow L,B}
+   \qquad
+    \infer[{\lpar}]{\llfDash \mathcal{K}:\Gamma \Uparrow L,A\lpar B}
+                  {\llfDash\mathcal{K}:\Gamma \Uparrow L,A,B}
