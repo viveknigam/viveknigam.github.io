@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author> Anduo Wang, &lt;a href=&quot;https://www.andrew.cmu.edu/user/liminjia/&quot;&gt; Limin Jia&lt;/a&gt;,  Wenchao Zhou,  Yiqing Ren, &lt;a href=&quot;http://www.cis.upenn.edu/~boonloo/&quot;&gt; Boon Thau Loo&lt;/a&gt;,  Jennifer Rexford, &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;, &lt;a href=&quot;http://www.cis.upenn.edu/~scedrov/&quot;&gt; Andre Scedrov&lt;/a&gt;, and &lt;a href=&quot;http://jlambda.com/clt/&quot;&gt; Carolyn L. Talcott&lt;/a&gt;. </author>
+<title> FSR: formal analysis and implementation toolkit for safe               interdomain routing</title>
+<number>6</number><citation><![CDATA[ Anduo Wang, <a href="https://www.andrew.cmu.edu/user/liminjia/"> Limin Jia</a>,  Wenchao Zhou,  Yiqing Ren, <a href="http://www.cis.upenn.edu/~boonloo/"> Boon Thau Loo</a>,  Jennifer Rexford, <a href="http://www.nigam.info"> Vivek Nigam</a>, <a href="http://www.cis.upenn.edu/~scedrov/"> Andre Scedrov</a>, and <a href="http://jlambda.com/clt/"> Carolyn L. Talcott</a>.  FSR: formal analysis and implementation toolkit for safe               interdomain routing. <i> IEEE/ACM Trans. Netw.</i>,  20(6):1814&ndash;1827, 2012.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/fsr_jrnl.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@article{wang12ton,
+  author    = {Anduo Wang and
+               Limin Jia and
+               Wenchao Zhou and
+               Yiqing Ren and
+               Boon Thau Loo and
+               Jennifer Rexford and
+               Vivek Nigam and
+               Andre Scedrov and
+               Carolyn L. Talcott},
+  title     = {FSR: formal analysis and implementation toolkit for safe
+               interdomain routing},
+  journal   = {IEEE/ACM Trans. Netw.},
+  volume    = {20},
+  number    = {6},
+  year      = {2012},
+  pages     = {1814-1827},
+  ee        = {http://dx.doi.org/10.1109/TNET.2012.2187924},
+  bib2html_pubtype = {Journal},
+  bib2html_rescat = {Formal Methods},
+  bib2html_dl_pdf = "/docs/fsr_jrnl.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-wang12ton.html</detail_url><bibtex_url>wang12ton.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

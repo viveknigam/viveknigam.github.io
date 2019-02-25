@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author> Marcilio O. O. Lemos, &lt;a href=&quot;http://www.mais.informatik.tu-darmstadt.de/Yuri_Gil_Dantas.html&quot;&gt; Yuri Gil Dantas&lt;/a&gt;,  Iguatemi E. Fonseca, and &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;. </author>
+<title> On the accuracy of formal verification of selective defenses for TDoS               attacks</title>
+<citation><![CDATA[ Marcilio O. O. Lemos, <a href="http://www.mais.informatik.tu-darmstadt.de/Yuri_Gil_Dantas.html"> Yuri Gil Dantas</a>,  Iguatemi E. Fonseca, and <a href="http://www.nigam.info"> Vivek Nigam</a>.  On the accuracy of formal verification of selective defenses for TDoS               attacks. <i> J. Log. Algebr. Meth. Program.</i>,  94:45&ndash;67, 2018.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/jlamp.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <url>http://dx.doi.org/10.1016/j.jlamp.2017.09.001</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <url>http://dx.doi.org/10.1016/j.jlamp.2017.09.001</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <url>http://dx.doi.org/10.1016/j.jlamp.2017.09.001</url>
+ <exists>1</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@article{lemos18jlamp,
+  author    = {Marcilio O. O. Lemos and
+               Yuri Gil Dantas and
+               Iguatemi E. Fonseca and
+               Vivek Nigam},
+  title     = {On the accuracy of formal verification of selective defenses for {TDoS}
+               attacks},
+  journal   = {J. Log. Algebr. Meth. Program.},
+  volume    = {94},
+  pages     = {45--67},
+  year      = {2018},
+  url       = {https://doi.org/10.1016/j.jlamp.2017.09.001},
+  doi       = {10.1016/j.jlamp.2017.09.001},
+bib2html_pubtype = {Journal},
+bib2html_rescat = {Formal Methods},
+bib2html_dl_pdf = "/docs/jlamp.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-lemos18jlamp.html</detail_url><bibtex_url>lemos18jlamp.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

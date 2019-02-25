@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.eecs.qmul.ac.uk/~mik/&quot;&gt; Max I. Kanovich&lt;/a&gt;,  Stepan Kuznetsov, &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;, and &lt;a href=&quot;http://www.cis.upenn.edu/~scedrov/&quot;&gt; Andre Scedrov&lt;/a&gt;. </author>
+<title> A Logical Framework with Commutative and Non-commutative Subexponentials</title>
+<citation><![CDATA[<a href="http://www.eecs.qmul.ac.uk/~mik/"> Max I. Kanovich</a>,  Stepan Kuznetsov, <a href="http://www.nigam.info"> Vivek Nigam</a>, and <a href="http://www.cis.upenn.edu/~scedrov/"> Andre Scedrov</a>.  A Logical Framework with Commutative and Non-commutative Subexponentials. In <i> Automated Reasoning - 9th International Joint Conference, IJCAR               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,               UK, July 14-17, 2018, Proceedings</i>, pp. 228&ndash;245, 2018.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/ijcar18.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <url>http://dx.doi.org/10.1007/978-3-319-94205-6\_16</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <url>http://dx.doi.org/10.1007/978-3-319-94205-6\_16</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <url>http://dx.doi.org/10.1007/978-3-319-94205-6\_16</url>
+ <exists>1</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@inproceedings{kanovich18ijcar,
+  author    = {Max I. Kanovich and
+               Stepan Kuznetsov and
+               Vivek Nigam and
+               Andre Scedrov},
+  title     = {A Logical Framework with Commutative and Non-commutative Subexponentials},
+  booktitle = {Automated Reasoning - 9th International Joint Conference, {IJCAR}
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 14-17, 2018, Proceedings},
+  pages     = {228--245},
+  year      = {2018},
+  url       = {https://doi.org/10.1007/978-3-319-94205-6\_16},
+  doi       = {10.1007/978-3-319-94205-6\_16},
+  timestamp = {Mon, 09 Jul 2018 13:01:56 +0200},
+   bib2html_pubtype = {Refereed Conference/Workshop},
+ bib2html_rescat = {Logical Frameworks},
+ bib2html_dl_pdf = "/docs/ijcar18.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-kanovich18ijcar.html</detail_url><bibtex_url>kanovich18ijcar.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

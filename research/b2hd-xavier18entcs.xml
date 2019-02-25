@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author> Bruno Xavier, &lt;a href=&quot;https://sites.google.com/site/carlosolarte/&quot;&gt; Carlos Olarte&lt;/a&gt;, &lt;a href=&quot;https://sites.google.com/site/gisellemnr/&quot;&gt; Giselle Reis&lt;/a&gt;, and &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;. </author>
+<title> Mechanizing Focused Linear Logic in Coq</title>
+<citation><![CDATA[ Bruno Xavier, <a href="https://sites.google.com/site/carlosolarte/"> Carlos Olarte</a>, <a href="https://sites.google.com/site/gisellemnr/"> Giselle Reis</a>, and <a href="http://www.nigam.info"> Vivek Nigam</a>.  Mechanizing Focused Linear Logic in Coq. <i> Electr. Notes Theor. Comput. Sci.</i>,  338:219&ndash;236, 2018.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/lsfa17.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <url>http://dx.doi.org/10.1016/j.entcs.2018.10.014</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <url>http://dx.doi.org/10.1016/j.entcs.2018.10.014</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <url>http://dx.doi.org/10.1016/j.entcs.2018.10.014</url>
+ <exists>1</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@article{xavier18entcs,
+  author    = {Bruno Xavier and
+               Carlos Olarte and
+               Giselle Reis and
+               Vivek Nigam},
+  title     = {Mechanizing Focused Linear Logic in {Coq}},
+  journal   = {Electr. Notes Theor. Comput. Sci.},
+  volume    = {338},
+  pages     = {219--236},
+  year      = {2018},
+  url       = {https://doi.org/10.1016/j.entcs.2018.10.014},
+  doi       = {10.1016/j.entcs.2018.10.014},
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Logical Frameworks},
+  bib2html_dl_pdf = "/docs/lsfa17.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-xavier18entcs.html</detail_url><bibtex_url>xavier18entcs.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

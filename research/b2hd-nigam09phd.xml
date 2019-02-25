@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;. </author>
+<title> Exploiting non-canonicity in the Sequent Calculus</title>
+<citation><![CDATA[<a href="http://www.nigam.info"> Vivek Nigam</a>.  Exploiting non-canonicity in the Sequent Calculus. Ph.D. Thesis,  Ecole Polytechnique, 2009.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>http://nigam.info/thesis/thesis.html</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@PhDThesis{ nigam09phd,
+	author = "Vivek Nigam",
+	title = "Exploiting non-canonicity in the {S}equent {C}alculus",
+	school = "Ecole Polytechnique",
+	year = "2009",
+	month = "sep",
+    bib2html_pubtype = {Thesis},
+    bib2html_rescat = {Logical Frameworks},
+	bib2html_dl_pdf = "http://nigam.info/thesis/thesis.html"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-nigam09phd.html</detail_url><bibtex_url>nigam09phd.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:43</datetime>
+</generation_info>
+</paper_detail>

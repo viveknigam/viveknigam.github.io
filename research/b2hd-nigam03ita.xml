@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.nigam.info&quot;&gt; V. Nigam&lt;/a&gt;,  C.L. Nasciment Jr., and  L. F. C. Nascimento. </author>
+<title> Estudo Comparativo da Aplica&amp;ccedil;&amp;amp;nbsp;ao de T&amp;eacute;cnicas de Intelig&amp;ecirc;nciaArtificial para a Previs&amp;amp;nbsp;ao da Faixa de Peso de R&amp;eacute;cem-Nascidos.</title>
+<citation><![CDATA[<a href="http://www.nigam.info"> V. Nigam</a>,  C.L. Nasciment Jr., and  L. F. C. Nascimento.  Estudo Comparativo da Aplica&ccedil;&amp;nbsp;ao de T&eacute;cnicas de Intelig&ecirc;nciaArtificial para a Previs&amp;nbsp;ao da Faixa de Peso de R&eacute;cem-Nascidos.. In <i> IX Encontro de Inicia&ccedil;&amp;nbsp;ao Cient\'ifica e P&oacute;s-Graduação do ITA</i>, 2003.  In Portuguese]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/ENCITA_2003_Vivek_Cairo_Luiz.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@InProceedings{ nigam03ita,
+	author = "V. Nigam and C.L. Nasciment Jr. and L. F. C. Nascimento",
+	title = "Estudo Comparativo da Aplica\c c\~ao de T\'ecnicas de Intelig\^encia
+Artificial para a Previs\~ao da Faixa de Peso de R\'ecem-Nascidos.",
+	year = "2003",
+	booktitle = "IX Encontro de Inicia\c c\~ao Cient\'ifica e P\'os-Graduação do ITA",
+	note = {In Portuguese},
+    bib2html_pubtype = {Unrefereed Collection},
+    bib2html_rescat = {Other},
+	bib2html_dl_pdf = "/docs/ENCITA_2003_Vivek_Cairo_Luiz.pdf"	
+}
+]]></bibtex_entry>
+<detail_url>b2hd-nigam03ita.html</detail_url><bibtex_url>nigam03ita.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

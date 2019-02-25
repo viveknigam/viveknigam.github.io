@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt; and  Jo&amp;amp;nbsp;ao Leite. </author>
+<title> Programming Multi-Agent Systems, 4th International Workshop,               ProMAS 2006, Hakodate, Japan, May 9, 2006, Revised and Invited               Papers</title>
+<citation><![CDATA[<a href="http://www.nigam.info"> Vivek Nigam</a> and  Jo&amp;nbsp;ao Leite.  Programming Multi-Agent Systems, 4th International Workshop,               ProMAS 2006, Hakodate, Japan, May 9, 2006, Revised and Invited               Papers. In <i> ProMAS</i>, pp. 165&ndash;181,  LNCS  4411,  Springer, 2007.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/promas06_lnai.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[ @inproceedings{nigam07promas,
+  author    = {Vivek Nigam and
+               Jo{\~a}o Leite},
+  title     = {Adding Knowledge Updates to {3APL}},
+  booktitle = {PROMAS},
+  year      = {2006},
+  pages     = {165-181},
+  ee        = {http://dx.doi.org/10.1007/978-3-540-71956-4_10},
+  editor    = {Rafael H. Bordini and
+               Mehdi Dastani and
+               J{\"u}rgen Dix and
+               Amal El Fallah-Seghrouchni},
+  title     = {Programming Multi-Agent Systems, 4th International Workshop,
+               ProMAS 2006, Hakodate, Japan, May 9, 2006, Revised and Invited
+               Papers},
+  booktitle = {ProMAS},
+  publisher = {Springer},
+  series    = {LNCS},
+  volume    = {4411},
+  year      = {2007},
+  isbn      = {978-3-540-71955-7}, 
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Other},
+  bib2html_dl_pdf = "/docs/promas06_lnai.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-nigam07promas.html</detail_url><bibtex_url>nigam07promas.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

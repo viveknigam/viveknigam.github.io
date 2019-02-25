@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;https://sites.google.com/site/elainepimentel/&quot;&gt; Elaine Pimentel&lt;/a&gt;, &lt;a href=&quot;https://sites.google.com/site/carlosolarte/&quot;&gt; Carlos Olarte&lt;/a&gt;, and &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;. </author>
+<title> A Proof Theoretic Study of Soft Concurrent Constraint Programming</title>
+<number>4-5</number><citation><![CDATA[<a href="https://sites.google.com/site/elainepimentel/"> Elaine Pimentel</a>, <a href="https://sites.google.com/site/carlosolarte/"> Carlos Olarte</a>, and <a href="http://www.nigam.info"> Vivek Nigam</a>.  A Proof Theoretic Study of Soft Concurrent Constraint Programming. <i> TPLP</i>,  14(4-5):649&ndash;663, 2014.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/softccp-sell.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@article{nigam14iclp,
+  author    = {Elaine Pimentel and
+               Carlos Olarte and
+               Vivek Nigam},
+  title     = {A Proof Theoretic Study of Soft Concurrent Constraint Programming},
+  journal   = {TPLP},
+  volume    = {14},
+  number    = {4-5},
+  year      = {2014},
+  pages     = {649-663},
+  ee        = {http://dx.doi.org/10.1017/S147106841400026X},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  bib2html_pubtype = {Journal},
+  bib2html_rescat = {Logical Frameworks},
+  bib2html_dl_pdf = "/docs/softccp-sell.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-nigam14iclp.html</detail_url><bibtex_url>nigam14iclp.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

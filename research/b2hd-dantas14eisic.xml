@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.mais.informatik.tu-darmstadt.de/Yuri_Gil_Dantas.html&quot;&gt; Yuri Gil Dantas&lt;/a&gt;, &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;, and  Iguatemi E. Fonseca. </author>
+<title> A Selective Defense for Application Layer DDoS Attacks</title>
+<citation><![CDATA[<a href="http://www.mais.informatik.tu-darmstadt.de/Yuri_Gil_Dantas.html"> Yuri Gil Dantas</a>, <a href="http://www.nigam.info"> Vivek Nigam</a>, and  Iguatemi E. Fonseca.  A Selective Defense for Application Layer DDoS Attacks. In <i> IEEE Joint Intelligence and Security Informatics Conference, JISIC               2014</i>, pp. 75&ndash;82,  IEEE, 2014.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/ddos.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@inproceedings{dantas14eisic,
+  author    = {Yuri Gil Dantas and
+               Vivek Nigam and
+               Iguatemi E. Fonseca},
+  title     = {A Selective Defense for Application Layer {DDoS} Attacks},
+  booktitle = {{IEEE} Joint Intelligence and Security Informatics Conference, {JISIC}
+               2014},
+  publisher = {{IEEE}},
+  pages     = {75--82},
+  year      = {2014},
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Formal Methods},
+  bib2html_dl_pdf = "/docs/ddos.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-dantas14eisic.html</detail_url><bibtex_url>dantas14eisic.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

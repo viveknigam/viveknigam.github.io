@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;, &lt;a href=&quot;https://www.andrew.cmu.edu/user/liminjia/&quot;&gt; Limin Jia&lt;/a&gt;, &lt;a href=&quot;http://www.cis.upenn.edu/~boonloo/&quot;&gt; Boon Thau Loo&lt;/a&gt;, and &lt;a href=&quot;http://www.cis.upenn.edu/~scedrov/&quot;&gt; Andre Scedrov&lt;/a&gt;. </author>
+<title> Maintaining distributed logic programs incrementally</title>
+<citation><![CDATA[<a href="http://www.nigam.info"> Vivek Nigam</a>, <a href="https://www.andrew.cmu.edu/user/liminjia/"> Limin Jia</a>, <a href="http://www.cis.upenn.edu/~boonloo/"> Boon Thau Loo</a>, and <a href="http://www.cis.upenn.edu/~scedrov/"> Andre Scedrov</a>.  Maintaining distributed logic programs incrementally. In <i> PPDP</i>, pp. 125&ndash;136,  ACM, 2011.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/mdrvi.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@inproceedings{nigam11ppdp,
+  author    = {Vivek Nigam and
+               Limin Jia and
+               Boon Thau Loo and
+               Andre Scedrov},
+  title     = {Maintaining distributed logic programs incrementally},
+  booktitle = {PPDP},
+  year      = {2011},
+  pages     = {125-136},
+  ee        = {http://doi.acm.org/10.1145/2003476.2003495},
+  editor    = {Peter Schneider-Kamp and
+               Michael Hanus},
+  booktitle = {PPDP},
+  publisher = {ACM},
+  year      = {2011},
+  isbn      = {978-1-4503-0776-5},
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Formal Methods},
+  bib2html_dl_pdf = "/docs/mdrvi.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-nigam11ppdp.html</detail_url><bibtex_url>nigam11ppdp.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

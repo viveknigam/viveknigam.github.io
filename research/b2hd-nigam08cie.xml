@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;. </author>
+<title> Using Tables to Construct Non-Redundant Proofs.</title>
+<citation><![CDATA[<a href="http://www.nigam.info"> Vivek Nigam</a>.  Using Tables to Construct Non-Redundant Proofs.. In <i> CiE 2008: Abstracts and extended abstracts of unpublished papers</i>, 2008.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/nigam_Non_Redundant_Proofs.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@InProceedings{ nigam08cie,
+	author = "Vivek Nigam",
+	title = "Using Tables to Construct Non-Redundant Proofs.",
+	year = "2008",
+	booktitle = "CiE 2008: Abstracts and extended abstracts of unpublished papers",
+    bib2html_pubtype = {Unrefereed Collection},
+    bib2html_rescat = {Logical Frameworks},
+	bib2html_dl_pdf = "/docs/nigam_Non_Redundant_Proofs.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-nigam08cie.html</detail_url><bibtex_url>nigam08cie.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://jlambda.com/clt/&quot;&gt; Carolyn Talcott&lt;/a&gt;, &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;, &lt;a href=&quot;http://homepages.cwi.nl/~farhad/&quot;&gt; Farhad Arbab&lt;/a&gt;, and  Tobias Kapp&amp;eacute;. </author>
+<title> Formal Specification and Analysis of Robust Adaptive Distributed Cyber-Physical Systems</title>
+<citation><![CDATA[<a href="http://jlambda.com/clt/"> Carolyn Talcott</a>, <a href="http://www.nigam.info"> Vivek Nigam</a>, <a href="http://homepages.cwi.nl/~farhad/"> Farhad Arbab</a>, and  Tobias Kapp&eacute;.  Formal Specification and Analysis of Robust Adaptive Distributed Cyber-Physical Systems. In <i> Formal Methods for the Quantitative Evaluation of Collective Adaptive Systems</i>,  LNCS, pp. 1&ndash;35, 2016.  16th edition in the series of Schools on Formal Methods (SFM), Bertinoro (Italy), 20-24 June 2016.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/soft-agents-tutorial.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@incollection{talcott16quanticol,
+  title = {Formal Specification and Analysis of Robust Adaptive Distributed Cyber-Physical Systems},
+  author = {Carolyn Talcott and Vivek Nigam and Farhad Arbab and Tobias Kapp\'e},
+  booktitle = {Formal Methods for the Quantitative Evaluation of Collective Adaptive Systems},
+  pages     = {1--35},
+  series = {LNCS},
+  year = {2016},
+  note = {16th edition in the series of Schools on Formal Methods (SFM), Bertinoro (Italy), 20-24 June 2016.},
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Formal Methods},
+  bib2html_dl_pdf = "/docs/soft-agents-tutorial.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-talcott16quanticol.html</detail_url><bibtex_url>talcott16quanticol.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

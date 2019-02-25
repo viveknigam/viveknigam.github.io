@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author>&lt;a href=&quot;http://research.microsoft.com/en-us/um/people/nick/index.htm&quot;&gt; Nick Benton&lt;/a&gt;, &lt;a href=&quot;https://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann&quot;&gt; Martin Hofmann&lt;/a&gt;, and &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;. </author>
+<title> Abstract effects and proof-relevant logical relations</title>
+<citation><![CDATA[<a href="http://research.microsoft.com/en-us/um/people/nick/index.htm"> Nick Benton</a>, <a href="https://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann"> Martin Hofmann</a>, and <a href="http://www.nigam.info"> Vivek Nigam</a>.  Abstract effects and proof-relevant logical relations. In <i> POPL</i>, pp. 619&ndash;632,  ACM, 2014.<br />  With some corrections, dated 5 May 2014.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/popl14-proof-relevant.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[ @inproceedings{benton14popl,
+  author    = {Nick Benton and
+               Martin Hofmann and
+               Vivek Nigam},
+  title     = {Abstract effects and proof-relevant logical relations},
+  booktitle = {POPL},
+  year      = {2014},
+  pages     = {619-632},
+  editor    = {Suresh Jagannathan and
+               Peter Sewell},
+  booktitle = {POPL},
+  publisher = {ACM},
+  year      = {2014},
+  isbn      = {978-1-4503-2544-8},
+  ee        = {http://dl.acm.org/citation.cfm?id=2535838},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Denotational Semantics},
+  wwwnote = "With some corrections, dated 5 May 2014.",
+  bib2html_dl_pdf = "/docs/popl14-proof-relevant.pdf"
+}
+]]></bibtex_entry>
+<detail_url>b2hd-benton14popl.html</detail_url><bibtex_url>benton14popl.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:42</datetime>
+</generation_info>
+</paper_detail>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_ex1.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/vivek/Desktop/WD-cloud/www-src/nanoc/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>Sorted by Date</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>Classified by Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>Classified by Research Category</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author> Alexander Kozlenkov,  Rafael Pe&amp;amp;nbsp;naloza, &lt;a href=&quot;http://www.nigam.info&quot;&gt; Vivek Nigam&lt;/a&gt;,  Lo&amp;iuml;c Royer,  Gihan Dawelbait, and  Michael Schroeder. </author>
+<title> Prova: Rule-Based Java Scripting for Distributed Web Applications:               A Case Study in Bioinformatics</title>
+<citation><![CDATA[ Alexander Kozlenkov,  Rafael Pe&amp;nbsp;naloza, <a href="http://www.nigam.info"> Vivek Nigam</a>,  Lo&iuml;c Royer,  Gihan Dawelbait, and  Michael Schroeder.  Prova: Rule-Based Java Scripting for Distributed Web Applications:               A Case Study in Bioinformatics. In <i> EDBT Workshops</i>, pp. 899&ndash;908,  LNCS  4254,  Springer, 2006.]]></citation>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <url>/docs/edbt2006.pdf</url>
+ <exists>1</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@inproceedings{kozlenkov06edbt,
+  author    = {Alexander Kozlenkov and
+               Rafael Pe{\~n}aloza and
+               Vivek Nigam and
+               Lo\"{\i}c Royer and
+               Gihan Dawelbait and
+               Michael Schroeder},
+  title     = {Prova: Rule-Based Java Scripting for Distributed Web Applications:
+               A Case Study in Bioinformatics},
+  booktitle = {EDBT Workshops},
+  year      = {2006},
+  pages     = {899-908},
+  ee        = {http://dx.doi.org/10.1007/11896548_68},
+  booktitle = {EDBT Workshops},
+  publisher = {Springer},
+  series    = {LNCS},
+  volume    = {4254},
+  year      = {2006},
+  isbn      = {3-540-46788-2},
+  bib2html_pubtype = {Refereed Conference/Workshop},
+  bib2html_rescat = {Other},
+  bib2html_dl_pdf = "/docs/edbt2006.pdf"
+ }
+]]></bibtex_entry>
+<detail_url>b2hd-kozlenkov06edbt.html</detail_url><bibtex_url>kozlenkov06edbt.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2019-02-25T17:46:43</datetime>
+</generation_info>
+</paper_detail>
