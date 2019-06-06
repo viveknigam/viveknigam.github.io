@@ -82,7 +82,204 @@
             
          </section>
          
+      <section padding="3em" margin-left="2em">
+         <header>
+            <h2>Program</h2>
+         </header>
+<blockquote>
+<dl>
+<dt>08:00-9:00 Registration</dt>
+<dt>9:00-10:00 Session 1 (chair: Vivek Nigam)</dt>
+<dd>
+  <table>
+<tr>          
+            <td></td><td><strong>Invited Talk:</strong> External Termination Proofs for Isabelle/HOL.</td>
+         </tr>
+         <tr>
+            <td><br><td> <a href="http://cl-informatik.uibk.ac.at/users/thiemann/">René Thiemann</a>, University of Innsbruck</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+Isabelle/HOL is a logic that permits to write functional programs, and to
+specify and verify properties thereof. For recursive programs, usually
+termination must be proven. This can be done by either using Isabelle's internal
+automated termination prover, or by manually providing the termination argument.
+</p>
+     <p style="font-size:small;">
+In this talk, we consider a third possibility: the invocation of external
+termination tools in combination with the reconstruction of the resulting
+termination proofs within Isabelle. We discuss an existing approach via a
+program transformation to first-order rewriting, extend it to higher-order,
+illustrate its limits, and provide an outlook on some alternative approaches.
+</p>     
+</td>
+</tr>
+<tr><td></td>
+ </table>
+</dd>
+<dt>10:00-10:30 Coffee break</dt>
+<dt>10:30-11:30 Session 2 (chair: ???)</dt>
+<dd>
+  <table>
+<tr>          
+   <td>10:30<br><td>Space Improvements for Total Garbage Collection.</td>
+         </tr>
+         <tr>
+            <td><br><td> Manfred Schmidt-Schauss and Nils Dallmeyer</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+The focus of this paper are space-improvements of programs, which are transformations that do not worsen the space requirement during evaluations. A realistic theoretical treatment must take garbage collection method into account. We investigate space improvements under the assumption of an optimal garbage collector. Such a garbage collector is not implementable, but there is an advantage: The investigations are independent of potential changes in an implementable garbage collector and our results show that the evaluation and other similar transformations are space-improvements.
+</p>
+</td>
+</td>
+</tr>
+<!-- <tr><td></td><td>                       [<a href="https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/WPTE_Sasano.pdf">Preproceedings</a>]</td> -->
+<tr>          
+   <td>11:00<br><td>On Determinization of Inverted Grammar Programs via Context-Free.</td>
+         </tr>
+         <tr>
+            <td><br><td> Naoki Nishida and Minami Niwa</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+In this paper, we propose a determinization method of inverted grammar programs by means of context-free expressions which are straightforward extensions of regular expressions to context-free languages. Grammar programs are context-free grammars that an inversion method proposed by Glueck and Kawabe uses as intermediate results. We use conditional term rewriting systems (CTRSs, for short) as target programs, and our determinization method aims at transforming a given CTRS into a non-overlapping one that is semantically equivalent to the given one. To this end, we first translate a grammar program into an equivalent context-free expression. Then, by using some simple equalities of expressions, we transform the expression to a desired form. Finally, we translate the resulting expression back into an equivalent grammar program which can be translated back into a non-overlapping CTRS.
+</p>
+</td>
+</td>
+<!-- <tr><td></td><td>                       [<a href="https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/WPTE_Sasano.pdf">Preproceedings</a>]</td> -->
+</tr>
+<tr><td></td>
+ </table>
+</dd>
+
+<dt>11:30-12:30 Session 3 (chair: ??)</dt>
+<dd>
+  <table>
+<tr>          
+            <td></td><td><strong>Invited Talk: </strong>Strategic Graph Rewriting in an Interactive Modelling Framework.</td>
+         </tr>
+         <tr>
+            <td><br><td> <a href="https://nms.kcl.ac.uk/maribel.fernandez/">Maribel Fernandez</a>, King's College London</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+In this talk I will describe the use of strategic port graph rewriting as a basis for the implementation of visual modelling tools. The goal is to facilitate the specification and analysis of complex systems, in particular programs. A system is represented by an initial graph and a collection of graph rewrite rules, together with a user-defined strategy to control the application of rules.  
+</p>
+     <p style="font-size:small;">
+The traditional notions of strategies for functional languages and term-rewriting languages have been adapted to deal with the more general setting of graph rewriting, and some new constructs have been included in the strategy language to deal with graph traversal and management of rewriting positions in the graph. We give a formal semantics for the language, examples of application, and a brief description of its implementation: the graph transformation and visualisation tool PORGY.
+</p>     
+</td>
+</tr>
+<tr><td></td>
+ </table>
+</dd>
+<dt>12:30-14:30 Lunch Break</dt>
+
+<dt>14:30-15:30 Session 4 (chair: Naoki Nishida)</dt>
+<dd>
+  <table>
+<tr>          
+            <td></td><td><strong>Invited Talk: </strong>SQL for combinatorial optimization problems and SMT-based solving by SQL transformation.</td>
+         </tr>
+         <tr>
+            <td><br><td> <a href="https://www.trs.css.i.nagoya-u.ac.jp/~sakai/index.html.en">Masahiko Sakai</a>, Nagoya University</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+Combinatorial optimization is an important topic, which finds an optimal solution from finite objects.  This talk presents an description language for combinatorial optimization problems (COPs) and a solution method powered by state-of-the-art SMT solvers.
+  
+</p>
+     <p style="font-size:small;">
+A COP is determined by (i) a set of objects, called a search space, (ii) a predicate on the objects deciding solutions, and (iii) a goal function defining the optimality.  The description language is designed based on the structural query language (SQL).
+(i) A search space is defined by an extended syntax of SQL, like as all functions between two sets, each of which is given by a relational-database table.
+(ii) A predicate is given as a Boolean SQL query.
+(iii) A goal function is given as an integer SQL query.
+</p>
+<p style="font-size:small;">
+Toward an effective implementation, the search space consisting of relations is represented by a relational table containing variables over finite domains.  The predicate (the goal function) is converted into SMT constraints over the introduced variables.  This enables us to solve the target problem by SMT solvers.
+
+To this end, we developed an SQL transformation technique, where an execution of the resulted SQL query by an existing SQL-engine generates quantifier free linear integer arithmetic (QFLIA) constraints.  A key idea is the use of user-definable functions that may cause side-effects allowed in the database system SQLite.  As a result, we successfully give an simple implementation without developing a complex extended SQL-engine.  Moreover, our implementation allows full-SQL query facilities in the SQL-based COP specifications.
+</p>     
+</td>
+</tr>
+<tr><td></td>
+ </table>
+</dd>
+
+<dt>15:30-16:00 Coffee Break</dt>
+
+<dt>16:00-17:00 Session 5 (chair: ???)</dt>
+<dd>
+  <table>
+<tr>          
+   <td>16:00<br><td>Formalisation of Normalisation of the Simply Typed Lambda Calculus in F*.</td>
+         </tr>
+         <tr>
+            <td><br><td> Sebastian Sturm</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+As the implementations of program transformations grow in size and complexity, the importance of formal correctness arguments rises. 
+One option is a formal verification using interactive theorem provers. 
+POPLmark-Reloaded is a theorem prover challenge from the field of programming meta-theory, precisely normalisation for the 
+simply typed lambda calculus (STLC), 
+and as such particularly suited for testing theorem provers on that field. 
+</p>
+<p style="font-size:small;">
+This paper presents a partial solution for the POPLmark-Reloaded challenge in F*. 
+F* is a dependently typed programming language usable both for verification and as a proof assistant. 
+It combines interactive proving with automatic, SMT based, approaches. 
+After a short introduction to F* and an overview for POPLmark-Reloaded we will describe the formalisation and some benefits and drawbacks 
+of using F* for programming meta-theory proofs.
+</p>
+</td>
+</td>
+</tr>
+<!-- <tr><td></td><td>                       [<a href="https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/WPTE_Sasano.pdf">Preproceedings</a>]</td> -->
+<tr>          
+   <td>16:30<br><td>On Formalizing a Transformation of IMP Programs into Logically Constrained Term Rewriting Systems in Isabelle/HOL.</td>
+         </tr>
+         <tr>
+            <td><br><td> Ryota Nakayama and Naoki Nishida</td>
+         </tr>
+         <tr>
+         <td><br></td>
+         <td><p style="font-size:small;">
+<i>Abstract</i></p>
+     <p style="font-size:small;">
+In this paper, we aim at formalizing a transformation of an IMP program into a logically constrained term rewriting system (LCTRS, for short) in Isabelle/HOL. To this end, we formalize LCTRSs and the transformation in Isabelle/HOL.
+</p>
+</td>
+</td>
+<!-- <tr><td></td><td>                       [<a href="https://www.cs.ox.ac.uk/conferences/fscd2017/preproceedings_unprotected/WPTE_Sasano.pdf">Preproceedings</a>]</td> -->
+</tr>
+<tr><td></td>
+ </table>
+</dd>
+
+</blockquote>         
          
+      </section>         
+
          <section padding="3em" margin-left="2em">
             <header>
                <h2>Invited Speakers</h2>
